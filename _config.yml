@@ -102,4 +102,20 @@ theme: cactus
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/yibei/yibei.github.io.git
+  branch: gh-pages
+
+theme_config:
+  colorscheme: light
+
+nav:
+  home: /
+  about: /about/
+  articles: /archives/
+  projects: http://github.com/probberechts
+  LINK_NAME: URL
+
+posts_overview:
+  show_all_posts: false
+  post_count: 7
